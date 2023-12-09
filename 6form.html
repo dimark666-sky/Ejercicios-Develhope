@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="email">
+            email
+        </label><input id ="email" type="email"> <br><br>
+        <label for="password">
+            Password
+        </label><input id ="password" type="password"> <br><br>
+        <label for="nombreCompleto">
+            nombreCompleto
+        </label><input id="nombreCompleto" type="text"><br><br>
+        <label for="fecha">
+            fecha
+        </label><input id="fecha" type="date"> <br> <br>
+        <label for="number">
+            number
+        </label><input id="number" type="tel"> <br> <br>
+
+        <label for="plan">
+            Select Plan:
+        </label> <br>
+
+
+        <select id="plan" name="plan" required>
+            <option value="free">Free Plan</option>
+            <option value="plan1">Plan 1 (Price)</option>
+            <option value="plan2">Plan 2 (Higher Price)</option>
+            <option value="plan3">Plan 3 (Even Higher Price)</option>
+        </select>
+        <label for="proPlan">
+            Pro Plan:
+        </label>
+        <input type="checkbox" id="proPlan" name="proPlan"> <br><br><br>
+
+        <label for="creditCard">
+            Credit Card Number:
+        </label>
+        <input type="text" id="creditCard" name="creditCard" required><br><br>
+
+        <label for="cvc">
+            CVC:
+        </label>
+        <input type="text" id="cvc" name="cvc" required><br><br>
+
+        <label for="expiration">
+            Expiration Date:
+        </label>
+        <input type="text" id="expiration" name="expiration" placeholder="MM/YYYY" required><br><br>
+
+        <label for="billingAddress">
+            Billing Address:
+        </label>
+        <textarea id="billingAddress" name="billingAddress" rows="4" required></textarea><br><br>
+
+        <button type="submit">
+            Register
+        </button><br>
+    </form>
+
+
+       
+
+
+
+   
+
+    </form>
+</body>
+</html>
