@@ -1,0 +1,48 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  div {
+    border: 1px solid #504f4f;
+    border-radius: 10px;
+    
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+    display: grid;
+
+  }
+  
+  #display {
+    font-size: 25px;
+    margin-bottom: 5px;
+    padding: 1px;
+    border-radius: 10px;
+  }
+  button {
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    grid-template-columns: 4fr;
+    
+  }
+  button:hover {
+    background-color: #eee;
+  }
+  
+  button.equals {
+    background-color: red;
+    color: rgb(12, 9, 9);
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 6;
+  }
+  div > div:first-child button {
+    background-color: #6b6868;
+  }
